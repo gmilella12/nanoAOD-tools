@@ -71,11 +71,10 @@ class TriggerMatching(Module):
     def triggerMatched(self, lepton, trigger_object):
     
 	'''  
-	the function is called for each lepton and it a dictionary: 
-	1st:
+	the function is called for each lepton and it returns a dictionary: 
 		-keys: indexes of the trigObjs that match with a lepton; 
 		-values: lists of deltaR and relative deltaPt for the trigObjs that match with a lepton
-	Matching criteria: deltaR < 0.3 and relative deltaPt < 0.1
+	Matching criteria: deltaR < 0.5 and relative deltaPt < 0.2
 	'''
     	
 	matchedTrgObj = {}
