@@ -8,6 +8,7 @@ import heapq
 
 from PhysicsTools.NanoAODTools.postprocessing.framework.datamodel import Collection
 from PhysicsTools.NanoAODTools.postprocessing.framework.eventloop import Module
+from collections import OrderedDict
 
 class GenParticleModule(Module):
 
@@ -22,7 +23,6 @@ class GenParticleModule(Module):
         self.outputName = outputName
         self.storeKinematics = storeKinematics
      
-    #function to retrieve the index of the first copy of a genP
     def getFirstCopy(self,motherIdx,pdg,index):
     	if old_pdg_list[motherIdx] == pdg and motherIdx != -1: 
 		index = motherIdx
@@ -55,7 +55,7 @@ class GenParticleModule(Module):
         """process event, return True (go to next module) or False (fail, go to next event)"""
         genParticles = self.inputCollection(event)
        
-        oldToNew = {}
+        oldToNew = OrderedDict()
         
         pdg_list = []
         motherIdx_list = []
@@ -75,23 +75,12 @@ class GenParticleModule(Module):
         	variable_list.append([])
         	i+=1	
         
-	'''
-	GUIDE TO THE ALGORITHM:
-	1) first copy of the genP required --> function getFirstCopy(...) returns the index of the first copy of a genP in the collection!
-	2) oldToNew dictionary --> key: position of the first copy of the genP of interest in the genParticles collection
-						   value: position of the genP of interest in the list that will contain the selected 21 genParticles
-	3) if the first copy of a genP is one of interest: pdg_list, status_list and variable_list are filled
-	4) filling of the motherIdx_list: 
-		-loop over the keys of the oldToNew dict to retrieve the index of the first copy of the mother of a genP
-		-the new motherIdx is the value of the oldToNew dict that has the index of the first copy of the mother of a genP as key 
-	'''
-	
 	for igenP, genParticle in enumerate(genParticles):
 		old_motherIdx_list.append(genParticle.genPartIdxMother)
 		old_pdg_list.append(genParticle.pdgId)
 
 	
-		if genParticle.genPartIdxMother>igenP :  #CHECK NECESSARY!!!!!  igenP==0 or igenP==1
+		if genParticle.genPartIdxMother>igenP :  #CHECK NECESSARY!!!!!  igenP==0 or igenP==1 
 			break	
 	
 		else:
@@ -102,6 +91,15 @@ class GenParticleModule(Module):
         		else:
         			partPdg = old_pdg_list[firstCopy_idx]
 				if abs(partPdg) in selected_pdg_list:
+				
+				    if abs(partPdg) == 6 or abs(partPdg) == 6000055: 
+					#print("X or t")
+					pdg_list.append(partPdg)
+					oldToNew[firstCopy_idx] = len(oldToNew)
+					status_list.append(genParticle.status)
+					for i, variable in enumerate(self.storeKinematics):
+	        	    			variable_list[i].append(getattr(genParticle,variable))
+	        	    							
 				    if abs(partPdg) == 5 and abs(old_pdg_list[old_motherIdx_list[firstCopy_idx]]) == 6:
 					#print("b from t")
 					pdg_list.append(partPdg)
@@ -109,15 +107,8 @@ class GenParticleModule(Module):
 					status_list.append(genParticle.status)
 					for i, variable in enumerate(self.storeKinematics):
 	        	    			variable_list[i].append(getattr(genParticle,variable))
-				    if (abs(partPdg) == 1 or abs(partPdg) == 2 or abs(partPdg) == 3 or abs(partPdg) == 4 or abs(partPdg) == 5 or abs(partPdg) == 11 or abs(partPdg) == 12 or abs(partPdg) == 13 or abs(partPdg) == 14 or abs(partPdg) == 15 or abs(partPdg) == 16) and (abs(old_pdg_list[old_motherIdx_list[firstCopy_idx]]) == 24): 
-					#print("q/l from W")
-					pdg_list.append(partPdg)
-					oldToNew[firstCopy_idx] = len(oldToNew)
-					status_list.append(genParticle.status)
-					for i, variable in enumerate(self.storeKinematics):
-	        	    			variable_list[i].append(getattr(genParticle,variable))
-				    if abs(partPdg) == 6 or abs(partPdg) == 6000055: 
-					#print("X or t")
+				    if (abs(partPdg) == 1 or abs(partPdg) == 2 or abs(partPdg) == 3 or abs(partPdg) == 4 or abs(partPdg) == 5 or abs(partPdg) == 11 or abs(partPdg) == 12 or abs(partPdg) == 13 or abs(partPdg) == 14 or abs(partPdg) == 15 or abs(partPdg) == 16) and abs(old_pdg_list[old_motherIdx_list[firstCopy_idx]]) == 24 and abs(old_pdg_list[old_motherIdx_list[self.getFirstCopy(old_motherIdx_list[firstCopy_idx],old_pdg_list[old_motherIdx_list[firstCopy_idx]],firstCopy_idx)]]) == 6: 
+					#print("q/l from W831261")
 					pdg_list.append(partPdg)
 					oldToNew[firstCopy_idx] = len(oldToNew)
 					status_list.append(genParticle.status)
@@ -133,7 +124,7 @@ class GenParticleModule(Module):
 				    else: continue
 				else:
 				    continue
-				    
+	
 				
 	for oldIdx in oldToNew.keys():
     		oldMotherIdx = self.getFirstCopy(old_motherIdx_list[oldIdx],old_pdg_list[old_motherIdx_list[oldIdx]],oldIdx)
@@ -143,7 +134,6 @@ class GenParticleModule(Module):
     		else:
         		newMotherIdx = oldToNew[oldMotherIdx]
         		motherIdx_list.append(newMotherIdx)
-		
 	
 	self.out.fillBranch("n"+self.outputName,len(pdg_list))
 	
