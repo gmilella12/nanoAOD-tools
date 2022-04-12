@@ -25,7 +25,7 @@ class ElectronSelection(Module):
         electronID = WP80,
         electronMinPt = 29.,
         electronMaxEta = 2.4,
-        storeKinematics=['pt','eta'],
+        storeKinematics= [] ,#['pt','eta'],
         storeWeights=False,
     ):
 
@@ -157,6 +157,7 @@ class ElectronSelection(Module):
 
         for variable in self.storeKinematics:
             self.out.fillBranch(self.outputName+"_"+variable,map(lambda electron: getattr(electron,variable), selectedElectrons))
+            #print list(map(lambda electron: getattr(electron,variable), selectedElectrons))
 
         setattr(event,self.outputName,selectedElectrons)
         setattr(event,self.outputName+"_unselected",unselectedElectrons)

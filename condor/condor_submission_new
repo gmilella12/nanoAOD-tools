@@ -1,0 +1,924 @@
+Executable   = executable_jobs.sh
+
+Should_Transfer_Files = NO
+Getenv = True
+
+Requirements = ( OpSysAndVer == "CentOS7" )
+
+
+
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_23.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_24.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_12.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_29.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_3.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_25.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_27.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_5.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_21.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_18.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_17.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_19.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_9.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_14.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_15.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_30.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_4.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_22.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_28.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_1.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_2.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_8.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_11.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_10.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_13.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_26.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_7.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_16.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_20.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/user/mkomm/ttx3/nanoaodUL17v9_220223/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/nanoaodUL17v9_220223/220226_120157/0000/ttv1_6.root /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/ttX_m2000_width1_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/EFBBD9DF-1B6A-C54A-9CA5-704B819BB6A8.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/E7185D42-E19B-4743-B5D2-2D2A008AB656.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/47450C94-04DF-7048-A46E-E77DEFE35A0A.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/C9E789DD-BB0B-0344-84C0-FDA560DD2E94.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/3FBB724F-E747-3D41-84F6-21224B62F3F7.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/E20B15CA-EE5D-9140-A72D-66A3E861F364.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/2A429AF2-DE56-5E4D-A393-69B8C9DFD6CA.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/D90D8C3C-C9BA-E649-B040-23E044CF83B6.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/DEEDAACC-97D6-3B44-8D71-D6E5F30A03A5.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/1DF4A2CB-D908-2648-9F63-C3DC37707E93.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/2D764A69-C69D-BB41-8FDE-D85BA88A9055.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/35576172-00C8-5D42-977A-D53B4847DD4A.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/B83ADE54-44E2-2341-B389-423E33B952F1.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/AC24CEB2-EFA5-8047-89E3-A60570FCF48D.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/2697A553-4F09-9842-B942-37B9A8624343.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/3DBA0953-8993-294C-867B-6515EE28E334.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/2F927F33-BC10-B240-8BC9-3F05C92979C5.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/EE4C3954-7374-C846-A1D3-4DA821D46F97.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/E4F824A3-3F8C-564F-9AF4-6556DF7D3CC9.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/2D5262FE-F3BA-F142-9045-BCCE65DA5D10.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/C3D3A402-E71C-C84D-AD85-4881BD795D09.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/74AEE4CE-B242-4242-9AD9-382EEEFB223C.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/DB0C948B-3FED-384D-AF48-B4275AEA6EC2.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/CBB4B9A0-B1A8-0B41-A665-72EA25FF743C.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/ED27C35F-833B-5B40-816A-E635ECFD455C.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/3D9CF396-C486-E54D-8896-3614F421C0A6.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/CB838D6F-6B19-B148-9854-84D42DDC522D.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/DCD5F8E3-01F9-A64F-82A3-20C8D6BBA5A2.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/011F120E-2342-D046-A22B-88307336493B.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/92E5F8D5-1215-9845-85CC-5FB42AEF99E5.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/A5836D7B-01E0-624B-BC77-D75A402B903F.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/AF3EC52D-5109-A94D-876A-AFCC224E3944.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/07F196D4-5C39-CC42-9F56-B19566C4C411.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/9F807EE9-0568-9B4C-9422-170B9731CF77.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/3DE27AC4-666E-814E-81E4-FAEA41E27A70.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/30022763-68EB-314F-99EB-7ABCA2156173.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/292B87E5-487C-5E4D-95F2-3A9DEAF9F91D.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/E9F4B62D-CD54-DF41-B0AE-AFA44FD81068.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/FE36F1D8-BED8-A14D-BB5E-D3FFB842EFE8.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/914C49F6-D620-5E4C-A475-E38B575356D5.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/47C6CCFD-2B70-994C-97D4-3EB9FEBC4C4E.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/AC1E7C96-1E0D-F447-912B-50BD8D549516.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/1E5B137F-0C15-9047-BE08-FCA99C0C6B5C.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/C79BBB5A-2D85-2343-824D-5319B4672839.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/03C84A48-9047-764A-941E-258A77585277.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/3851571D-5761-6544-8AD9-5E0BF62EE3EB.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/85C9F160-4573-7E44-8594-5D156977A2B1.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/39FAA3C8-01C8-0247-B4EF-849957BBF4D8.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/9703D08F-140C-0644-827C-8A65C7BC077D.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/60F46F09-86AE-B541-8A5A-DEB0A29A8D50.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/C6E08DC1-4848-7641-BD3F-9A43BFF2D243.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/D054A7BC-F56B-3449-AC90-13A424AEB278.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/4C1E172E-DA11-8C4E-B59D-0B3A46A8956B.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/72DE1A8F-B8E6-9C4E-A073-02C6036C7B00.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/6F596986-55FA-3B4D-A59E-F1784C86E33A.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/D7549169-B4BF-F647-BD04-C5909B36E5B6.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/56691C32-EA20-7D48-81DF-0C36CAFFC63D.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/69AEE8E9-76E4-C54C-BE33-ED74471E6143.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/9E3F7ECD-2D23-E74D-86E0-05F8B0A4FB8E.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/1E310FF3-C511-8E47-8522-5E0DEF793954.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/10C33CC0-846D-134B-99EA-F7E4200E9A48.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/35BE64F1-F2DE-5341-A512-577D39C45F42.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/CC3157D7-4718-BC4A-A661-2FF1AA1A0872.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/B3536766-FD4C-284B-AACB-31AE79E644B7.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/866362EF-FC12-0A43-93DF-D49E7B00BCA8.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/7B674270-A585-FB4E-ABF6-94B43FBA932C.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/782CD4C5-3F01-B546-9842-F69ED2682A7F.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/E51E35AD-594B-404F-9BE4-AB42DE6EAF35.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/FCB1FFA3-61A2-E54B-94F0-C04B0992FFEB.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/F27016A8-FFC4-2E48-85AE-06AE0E6A0DFF.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/1504C6FC-9533-FA40-87E8-55B10C3F3E07.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/A5FD3B0B-1E75-A245-9A3E-EECECEDDA65E.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/D5B7B72B-A0CF-DE43-8678-821B4747A966.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/E3B4030D-5D60-034B-ABE1-447CEA9E5765.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/4451B50C-1D09-6947-9003-1D7DA0F6E3AE.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/E587EB20-E717-0448-A9FF-229F12353B8C.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/D2300F07-5B3D-684A-B35D-E18AC9D754FB.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/A66739DA-6D17-0B41-AD65-90A82446A4E5.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/131109F0-D9F3-0A43-975E-265BC1CFE6FF.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/D9E7ED91-573E-7448-A31D-D7EB86D237D8.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/C8783F40-85E4-8A48-91E3-2C5AA8FE5213.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/BF8FF5C6-5FDC-534E-8BF5-12ABEDFCA3CA.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/AF4437CF-30C8-884A-907F-C38B9FAE821E.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/28AE318E-A365-9F4E-BF55-4F72B3B6FDCC.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/E98F6599-75C7-3341-9ECE-9A9A423FF662.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/B6274E15-4850-2042-8479-FEFC64C8832D.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/99037A80-6006-C744-8F01-941D83B5DD7D.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/F4B3D0FC-D68D-5B46-BF21-1F895746C910.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/212E5563-8FA2-7947-8E4B-257BA97EE645.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/F8026124-C3C3-424A-A0A2-0888756AED09.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/60250C73-6FA0-8246-8085-33EF0DEB619D.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/BECA664B-8911-5746-B733-DC1E0C020E9D.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/54CB3418-666A-C746-BBB3-BB06AD1C534B.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/F689F2EB-6A85-CE46-9AB0-BF87D586AFFD.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/EDDF6235-96DD-0D4D-92CF-7137CE93A78E.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/5C9A5D97-453B-0945-A6ED-98EC455C7DA9.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/256AAE58-DDF4-C44E-B33A-ABFC84CF8EE7.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/74C36AED-4CB9-1A4D-A9E6-90278C68131C.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2510000/6C0AAC46-7607-1F4E-8F69-7632068C6F23.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/BF3E052D-15C1-EF46-9C80-34887A405EE4.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/226F3960-2EDC-8249-B407-31A5BD7522D8.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/03483CFA-1D1B-9248-943A-9AE5457BCCB9.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/B4F85C9A-85B4-9045-850F-471952D23311.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/6C9F0352-7F1F-0849-B286-5CD4D5D23497.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/2500000/D95E1D38-E663-CF42-8EB4-52CE9F233361.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/376AFBBC-A397-5548-8754-32D41447516F.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/91E9777F-8F80-5B45-ACB1-C06A54D9A7B8.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/FE93AB3D-DC28-804D-82E5-98A420022625.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/81B31FA8-33CE-3B4E-8959-9E8B21EE6156.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/49C2F771-02C2-B44D-8692-D6983C1D5C39.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/34806252-F0F0-3F41-9817-39CB0D777868.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/3352D4FC-941F-BF4C-991F-E3E28BDC2D04.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/276A2D0D-28BB-C144-9CF6-F28E90872FF1.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/F6F31AB8-735A-7D45-9E0D-4951DD7CC6AA.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/ADDD688D-1D8E-824D-8CBB-2B3B00D820FF.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/3F1BB968-8C80-034B-BC97-6C1D28B4C176.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/21F6B4DD-16DE-8845-B2E1-E89AC2278AFB.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/141FD55E-EE0A-C940-B19C-A549C660E681.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/7269098D-C04F-5B48-BDA7-DB38E84A9BD6.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/88D4CB24-8899-2E4C-90CF-0C2C7B2D4969.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/04439E09-398E-904E-97F7-124840F2F15B.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/01E3B7AC-61A9-5049-8FCB-90534CCBA8B7.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/DB3A736B-613F-A248-9CCF-0BE8CA9E4D31.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/2F43988F-FE4C-934B-B3FC-8343D149B68F.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/4FA9A1AE-A3B1-6E4F-A21F-C3899A6ADD69.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/199DBC50-DB3A-A64A-8F30-BF7FD5765539.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/F97C60DE-BD9F-8D49-8D17-320953A30775.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/B5DB0F03-42AD-7A42-860A-2B326C5A3C64.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/AE0CE1F8-B65D-E243-A791-168F129D8924.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/0EF88CEA-3A75-AB45-9E2F-A1F787CF2429.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/29A3A152-2FBE-7C4D-B1C1-83D047E43321.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/34FCC40F-1191-D54F-8535-DFD2FB88173A.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/69B64934-D5BF-7646-AEE5-FF966A4D7A5A.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/CFA52DBD-B5EC-0447-974E-9478CE7D3060.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/7C48B155-7386-1244-9395-2E0C5CC1D22A.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/2510000/59400C14-39B8-9A41-8485-2D30A024E373.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/2510000/D886D241-8C18-CF4C-8F31-1FB6E8AA97AD.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/2510000/41A486D7-796A-E54E-A007-1E8A40DD6976.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/2430000/7207EC19-E037-644C-8379-9775FA9872F0.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/34301D0B-85FE-0A4E-AED2-88481BBDB490.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/7DB33AD1-2327-9941-A81E-3014B800F77D.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/00B97A4C-F45C-3248-AF6E-B73060F1D399.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/B2D07A51-F080-7C42-B6CC-41C8D7687777.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/AA1EFB09-A8BB-A24D-9839-4A194F8D81DF.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/E75F2788-6C27-1242-87DB-7E0069BA2A78.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/C9B42586-972F-C44A-B080-0EF37A51C333.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i /pnfs/desy.de/cms/tier2//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/C07AD2CE-BCB6-AC4C-9B0A-36A427005449.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/230000/4FC4736B-85D3-CD43-A974-26977126C710.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/100000/18B79AD9-DBDB-E540-9AE1-846D77A33800.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/250000/7CB684AE-52B0-1D45-AF46-818B989E31C5.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/DE3C62DB-CB84-2541-B8CE-3E714494919A.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/EE8CDD80-5CBD-C34E-92CC-2D79EC893EA8.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue
+arguments = "-i root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17NanoAODv9/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/5B9A8F66-4717-4148-B040-F3D5E49A373A.root /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"
+Output       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).out
+Error       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).err
+Log       = /nfs/dust/cms/user/gmilella/tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer/log/log.$(Process).log
+queue

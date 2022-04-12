@@ -1,0 +1,7 @@
+#FIRST: DATASET, SECOND: OUTPUT_DIRECTORY
+#ttbar 2dilepton
+ttbar_dilepton_SM_MC2017: ["/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM", "tt_dilepton_SM_MC2017_ntuplizer"]
+#ttX
+ttX_m2000_width1: ["/TTV1ToTT_TopPhilic_m2000_width1_TuneCP5_13TeV-madgraph-pythia8/mkomm-nanoaodUL17v9_220223-76de701442013e6ff941c86cd482e64d/USER", "ttX_m2000_width1_ntuplizer"]
+#ttbar 2dilepton HT 500 NJETS 7
+ttbar_dilepton_SM_HT500_NJets7_MC2017: ["/TTTo2L2Nu_HT500Njet7_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v2/NANOAODSIM","tt_dilepton_SM_MC2017_HT500_NJets7_ntuplizer"]

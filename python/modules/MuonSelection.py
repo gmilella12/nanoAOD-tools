@@ -4,6 +4,7 @@ import math
 import json
 import ROOT
 import random
+import heapq
 
 from PhysicsTools.NanoAODTools.postprocessing.framework.datamodel import Collection
 from PhysicsTools.NanoAODTools.postprocessing.framework.eventloop import Module
@@ -27,7 +28,7 @@ class MuonSelection(Module):
         muonIso=TIGHT,
         muonMinPt=25.,
         muonMaxEta=2.4,
-        storeKinematics=['pt','eta'],
+        storeKinematics= [],#['pt','eta'],
         storeWeights=False,
     ):
         
@@ -256,7 +257,7 @@ class MuonSelection(Module):
             self.out.branch(self.outputName+"_weight_iso_nominal","F")
             self.out.branch(self.outputName+"_weight_iso_up","F")
             self.out.branch(self.outputName+"_weight_iso_down","F")
-        
+
     def endFile(self, inputFile, outputFile, inputTree, wrappedOutputTree):
         pass
         
@@ -282,10 +283,11 @@ class MuonSelection(Module):
             if muon.pt>self.muonMinPt \
             and math.fabs(muon.eta)<self.muonMaxEta \
             and self.muonIdFct(muon) \
-            and self.muonIsoFct(muon) \
-            and self.triggerMatched(muon, triggerObjects):
+            and self.muonIsoFct(muon) :
+            #and self.triggerMatched(muon, triggerObjects):
             
                 selectedMuons.append(muon)
+                                
                 #TODO
                 '''
                 if not Module.globalOptions["isData"] and self.storeWeights:
@@ -310,11 +312,11 @@ class MuonSelection(Module):
             else:
                 unselectedMuons.append(muon)
 
-
         self.out.fillBranch("n"+self.outputName,len(selectedMuons))
+        
         for variable in self.storeKinematics:
             self.out.fillBranch(self.outputName+"_"+variable,map(lambda muon: getattr(muon,variable),selectedMuons))
-        
+            
         if not Module.globalOptions["isData"] and self.storeWeights:
             self.out.fillBranch(self.outputName+"_weight_id_nominal", weight_id_nominal)
             self.out.fillBranch(self.outputName+"_weight_id_up", weight_id_up)

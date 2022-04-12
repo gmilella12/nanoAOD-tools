@@ -287,6 +287,8 @@ class JetMetUncertainties(Module):
                 p4 = ROOT.TLorentzVector()
                 p4.SetPtEtaPhiM(obj.pt,0,obj.phi,0)
                 return p4
+      
+      	    #print("met 4lor ", (metP4(met)).Et())
                 
             met.uncertainty_p4 = {
                 'nominal': metP4(met),

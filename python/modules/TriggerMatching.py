@@ -71,10 +71,11 @@ class TriggerMatching(Module):
     def triggerMatched(self, lepton, trigger_object):
     
 	'''  
-	the function is called for each lepton and it returns a dictionary: 
+	the function is called for each lepton and it a dictionary: 
+	1st:
 		-keys: indexes of the trigObjs that match with a lepton; 
 		-values: lists of deltaR and relative deltaPt for the trigObjs that match with a lepton
-	Matching criteria: deltaR < 0.5 and relative deltaPt < 0.2
+	Matching criteria: deltaR < 0.3 and relative deltaPt < 0.1
 	'''
     	
 	matchedTrgObj = {}
@@ -114,14 +115,8 @@ class TriggerMatching(Module):
 	'''
 	AMBIGUITIES CHECK
 	'''
-	
-	#first check if there are at least 2 muons (electrons) that has matched with at least one trigObj
+			
 	if len(matchedLeptons)>1 and matchedLeptons.count({})<len(matchedLeptons)-1 :
-		'''
-		second check if different muons (electrons) have matched the same trigObj by looking 
-		at the indexes saved as keys in the dictionaries of the list "matchedLeptons":
-		if one trigObj is shared by different muons (electrons), its index is saved in the set "sharedTrgObj_idx"
-		'''
 		nmatchedLeptons = len(matchedLeptons)
 		
 		sharedTrgObj_idx = set()
@@ -135,37 +130,17 @@ class TriggerMatching(Module):
 
 			sharedTrgObj_idx = sharedTrgObj_idx.union(previous_set_TrgObj_idx&current_set_TrgObj_idx)	
 			previous_set_TrgObj_idx = current_set_TrgObj_idx
-			
-			#if statement needed to compare the last dictionary of the list with the first one
+				
 			if trigObj_idx == len(matchedLeptons)-2:
 				sharedTrgObj_idx = sharedTrgObj_idx.union(current_set_TrgObj_idx&set(matchedLeptons[0].keys()))
-		
+			
 		if nTrigObj >= nmatchedLeptons+2:
-			'''
-			if the number of all matched trigObj (sum of the len of the dictionaries in the list matchedLeptons) is greater than
-			the number of muons (electrons), there are at least two muons (electrons) that match with different trigObj
-			'''
 			return True
 		elif nTrigObj == nmatchedLeptons and len(sharedTrgObj_idx)==0:
-			'''
-			if the number of all matched trigObj (sum of the len of the dictionaries in the list matchedLeptons) is equal to
-			the number of muons (electrons) and there are no shared trigObjs by them,
-			there are at least two muons (electrons) that match with different trigObj
-			'''
 			return True
 		else:
 			if sharedTrgObj_idx == set(): return True
 			else:
-				'''
-				if the set "sharedTrgObj_idx" is not empty, the number of occurrencies of the indexes of the shared trigObj is counted:
-				if the number is equal to the number of muons (electrons) and if the position of the best matching lepton (the one that has the shortest
-				deltaR and relative deltaPt) coincides with the position of the lepton that has the highest number of matched trigObjs, return False
-				
-				example of this last scenario -> matchedLeptons = [{"1":[.3,.2]},{"1":[.1,.1],"2":[.1,.4]},{"1":[.5,.4]}]
-				the 2° element of the list (2° muon) matches with the trigObj with index "1" (which is the index also shared by the other leptons)
-				with the shortest [deltaR,deltaPt] (->[.1,.1]) and it is the lepton with the highest number
-				of matched trigObj -> there are no 2 muons that match different trigObjs
-				'''
 				for i in sharedTrgObj_idx:
 					occ_sharedTrgObj_idx = [k[i] for k in matchedLeptons if k.get(i)]
 					if len(occ_sharedTrgObj_idx)==nmatchedLeptons:
@@ -214,8 +189,8 @@ class TriggerMatching(Module):
                 loop to check the matching between a muon and trigObjs
                 that pass the matching criteria deltaR < 0.3 and relative deltaPt < 0.1 
 	                
-                all the matched trigObjs to be saved in the list matchedMuons-->list of dictionaries:
-                -one element of the list has all the trigObjs that have passed the matching criteria [saved as dictionary->check the func triggerMatched()] 
+                all the matched trigObjs to be saved in the list matchedMuons:
+                -one element of the list has all the trigObjs that have passed the matching criteria [saved as dictionary->check the func triggerMatched()] per single muon
                 '''       
                 matchedMuons.append(self.triggerMatched(muon, triggerObjects))
 	       
@@ -223,11 +198,6 @@ class TriggerMatching(Module):
       		matchedElectrons.append(self.triggerMatched(electron, triggerObjects))
       	
 
-	'''
-	ambiguitiesCheck needed in case of more than 2 muons and no electrons (and viceversa):
-	it returns True whenever at least 2 muons (electrons) match with two different trigObjs
-	'''
-	
       	if len(muons)>1 and len(electrons)==0:
       		if self.ambiguitiesCheck(matchedMuons): matching_flag = 1
       		   

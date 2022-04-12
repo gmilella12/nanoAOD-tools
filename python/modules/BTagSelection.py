@@ -25,7 +25,7 @@ class BTagSelection(Module):
         jetMinPt=30.,
         jetMaxEta=2.4,
         workingpoint = TIGHT,
-        storeKinematics=['pt', 'eta'],
+        storeKinematics=['pt', 'eta','phi','mass'],
         storeTruthKeys=[]
     ):
 
@@ -65,6 +65,7 @@ class BTagSelection(Module):
         self.out = wrappedOutputTree
         
         self.out.branch("n"+self.outputName, "I")
+        self.out.branch(self.outputName+"_genJetIdx", "I", lenVar="n"+self.outputName)
         for variable in self.storeKinematics:
             self.out.branch(self.outputName+"_"+variable, "F", lenVar="n"+self.outputName)
         for variable in self.storeTruthKeys:
@@ -95,7 +96,7 @@ class BTagSelection(Module):
             if not self.taggerFct(jet):
                 lJets.append(jet)
                 continue
-               
+            
             bJets.append(jet)
             
         for jet in bJets:
@@ -104,6 +105,10 @@ class BTagSelection(Module):
             setattr(jet,self.flagName,False)
 
         self.out.fillBranch("n"+self.outputName, len(bJets))
+        
+        self.out.fillBranch(self.outputName+"_genJetIdx", map(lambda jet: getattr(jet, 'genJetIdx'), bJets))
+        #print("b jet idxtogen ", list(map(lambda jet: getattr(jet, 'genJetIdx'), bJets)))        	
+        
         for variable in self.storeKinematics:
             self.out.fillBranch(self.outputName+"_"+variable,
                                 map(lambda jet: getattr(jet, variable), bJets))
