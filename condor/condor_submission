@@ -3,5 +3,5 @@ Executable   = /afs/desy.de/user/g/gmilella/ttx3_analysis/CMSSW_11_1_7/src/Physi
 Should_Transfer_Files = NO
 Getenv = True
 
-RequestMemory = 3000
+RequestMemory = 2500
 
