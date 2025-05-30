@@ -202,7 +202,7 @@ class GenParticleModule(Module):
                     # ---- check the origin of the genTop (if comes from resonance)
                     if Module.globalOptions['isSignal']:
                         setattr(genParticle, 'from_resonance', False)
-                        if self.has_x_as_mother(genParticle._index, 6000055,event):
+                        if self.has_x_as_mother(genParticle._index, 6000046, event): #6000055 (Z') 6000045 (tth) 6000046 (tta) 
                             setattr(genParticle, 'from_resonance', True)
                             if self.verbose:
                                 print('...which comes from resonance!')
@@ -233,7 +233,6 @@ class GenParticleModule(Module):
                         if self.verbose:
                             print(gentop_daughters)
                             print("Wierd Event...")
-                            sys.exit()
                     if self.verbose:
                         print('Top pos.[{}] has {} in pos.[{}] as daughters'.format(genParticle._index, list(map(lambda daughter: daughter.pdgId, gentop_daughters)), list(map(lambda daughter: daughter._index, gentop_daughters))))
 
