@@ -108,7 +108,7 @@ if args.isData:
 
 #b-tagging working point
 b_tagging_wpValues = {
-    '2016preVFP': {'loose': 0.0614, 'medium': 0.3093, 'tight': 0.7221}, #https://btv-wiki.docs.cern.ch/ScaleFactors/UL2016preVFP/
+    '2016preVFP': {'loose': 0.0508, 'medium': 0.2598, 'tight': 0.6502}, #https://btv-wiki.docs.cern.ch/ScaleFactors/UL2016preVFP/
     '2016': {'loose': 0.0480, 'medium': 0.2489, 'tight': 0.6377}, #https://btv-wiki.docs.cern.ch/ScaleFactors/UL2016postVFP/
     '2017': {'loose': 0.0532, 'medium': 0.3040, 'tight': 0.7476}, #https://btv-wiki.docs.cern.ch/ScaleFactors/UL2017/
     '2018': {'loose': 0.0490, 'medium': 0.2783, 'tight': 0.7100}, #https://btv-wiki.docs.cern.ch/ScaleFactors/UL2018/
@@ -193,8 +193,8 @@ bdtSFFiles = {
     '2016preVFP': os.environ['CMSSW_BASE']+"/src/PhysicsTools/NanoAODTools/data/bdt_sf/2016preVFP/BDT_SF_2016preVFP.json.gz",
     '2017':       os.environ['CMSSW_BASE']+"/src/PhysicsTools/NanoAODTools/data/bdt_sf/2017/BDT_SF_2017.json.gz", 
     '2018':       os.environ['CMSSW_BASE']+"/src/PhysicsTools/NanoAODTools/data/bdt_sf/2018/BDT_SF_2018.json.gz", 
-    '2022':       os.environ['CMSSW_BASE']+"/src/PhysicsTools/NanoAODTools/data/bdt_sf/2022/BDT_SF_2018.json.gz", 
-    '2022EE':       os.environ['CMSSW_BASE']+"/src/PhysicsTools/NanoAODTools/data/bdt_sf/2022EE/BDT_SF_2018.json.gz", 
+    '2022':       os.environ['CMSSW_BASE']+"/src/PhysicsTools/NanoAODTools/data/bdt_sf/2022/BDT_SF_2022.json.gz", 
+    '2022EE':       os.environ['CMSSW_BASE']+"/src/PhysicsTools/NanoAODTools/data/bdt_sf/2022EE/BDT_SF_2022EE.json.gz", 
 }
 
 #https://cms-jerc.web.cern.ch/Recommendations/#jet-veto-maps
@@ -706,16 +706,16 @@ analyzerChain.extend([
  
 ##### GENTOP MODULE --- to study if they are inside/outside recoJets
 ##### it needs to be in this position as some jet variables are calculated in the EventReconstruction module
-# if isMC:
-#     analyzerChain.extend( [
-#         GenTopModule(
-#             inputGenTopCollection=lambda event: event.genTops,
-#             inputFatGenJetCollection=lambda event: Collection(event, "GenJetAK8"),
-#             inputGenJetCollection=lambda event: Collection(event, "GenJet"),
-#             inputFatJetCollection=lambda event: event.selectedFatJets_nominal,
-#             inputHOTVRJetCollection=lambda event: event.selectedHOTVRJets_nominal,
-#         ),
-#     ])
+if isMC:
+    analyzerChain.extend( [
+        GenTopModule(
+            inputGenTopCollection=lambda event: event.genTops,
+            inputFatGenJetCollection=lambda event: Collection(event, "GenJetAK8"),
+            inputGenJetCollection=lambda event: Collection(event, "GenJet"),
+            inputFatJetCollection=lambda event: event.selectedFatJets_nominal,
+            inputHOTVRJetCollection=lambda event: event.selectedHOTVRJets_nominal,
+        ),
+    ])
     # analyzerChain.append(
     #    EventSkim(selection=lambda event: 
     #        map(lambda gentop: gentop.has_hadronically_decay, event.genTops).count(True) == 4
@@ -742,18 +742,18 @@ analyzerChain.extend([
 
 ##### HOTVR/AK8 JET COMPOSITION MODULE
 if not Module.globalOptions["isData"]:
-    analyzerChain.append(
-        HOTVR_MVA(
-            inputHOTVRJetCollection = lambda event: getattr(event,"selectedHOTVRJets_nominal"),
-            inputGenParticleCollections = {
-                'gentops': lambda event: event.genTops, 
-                'genWs_not_from_top': lambda event: event.gen_w_bosons_not_from_top, 
-                'genbs_not_from_top': lambda event: event.gen_b_quarks_not_from_top, 
-                'genparticles_not_from_top': lambda event: event.gen_particles_not_from_top
-                },
-            inputSubHOTVRJetCollection = lambda event: getattr(event,"selectedHOTVRSubJets_nominal"),
-        )
-    )
+    # analyzerChain.append(
+    #     HOTVR_MVA(
+    #         inputHOTVRJetCollection = lambda event: getattr(event,"selectedHOTVRJets_nominal"),
+    #         inputGenParticleCollections = {
+    #             'gentops': lambda event: event.genTops, 
+    #             'genWs_not_from_top': lambda event: event.gen_w_bosons_not_from_top, 
+    #             'genbs_not_from_top': lambda event: event.gen_b_quarks_not_from_top, 
+    #             'genparticles_not_from_top': lambda event: event.gen_particles_not_from_top
+    #             },
+    #         inputSubHOTVRJetCollection = lambda event: getattr(event,"selectedHOTVRSubJets_nominal"),
+    #     )
+    # )
     analyzerChain.append(
         HOTVRJetComposition(
             inputHOTVRJetCollection = lambda event: getattr(event,"selectedHOTVRJets_nominal"),
