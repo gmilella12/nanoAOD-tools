@@ -8,6 +8,7 @@ if (ROOT.gSystem.Load("libPhysicsToolsNanoAODTools.so")!=0):
 #genParticle
 from GenParticleModule import GenParticleModule
 from GenTopModule import GenTopModule
+from GenJetModule import GenJetModule
 # from GenRecoMatching import GenRecoMatching
 
 #trigger
